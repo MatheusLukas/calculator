@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid aqua;
+}
+
+form button {
+  border: none;
+  background-color: aqua;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: aquamarine;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9e9e9e;
+}
+
+.btn-equal {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background-color: rgba(81, 174, 81, 0.815);
+  cursor: pointer;
+}
+
+.btn-equal:hover {
+  background-color: rgba(0, 200, 0, 0.804);
+}
+
+.btn-clear {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background-color: rgba(210, 71, 71, 0.842);
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: rgba(237, 45, 45, 0.842);
+}
+
+.btn-operation,
+.btn-parentheses {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background-color: #9e9e9e;
+  cursor: pointer;
+}
+
+.btn-operation:hover,
+.btn-parentheses:hover {
+  background-color: #5e5e5e;
+}
